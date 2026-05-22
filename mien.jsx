@@ -1,13 +1,24 @@
+import waterImg from "./img/water.jpeg";
+import cyberImg from "./img/cyber foundations.png";
+import fasoImg from "./img/faso bara.jpeg";
+import trustImg from "./img/trust market.jpeg";
+import healthImg from "./img/health.jpeg";
+import quizImg from "./img/quiz game.png";
+import webImg from "./img/web projet.jpeg";
+import meImg from "./img/me.jpeg";
+import dartCert from "./certif/dart_flutter_certif.pdf";
+import pythonCert from "./certif/python_certif.pdf";
+
 export default function Portfolio() {
   const imageMap = {
-    "water.jpeg": new URL("./img/water.jpeg", import.meta.url).href,
-    "cyber foundations.png": new URL("./img/cyber foundations.png", import.meta.url).href,
-    "faso bara.jpeg": new URL("./img/faso bara.jpeg", import.meta.url).href,
-    "trust market.jpeg": new URL("./img/trust market.jpeg", import.meta.url).href,
-    "health.jpeg": new URL("./img/health.jpeg", import.meta.url).href,
-    "quiz game.png": new URL("./img/quiz game.png", import.meta.url).href,
-    "web projet.jpeg": new URL("./img/web projet.jpeg", import.meta.url).href,
-    "me.jpeg": new URL("./img/me.jpeg", import.meta.url).href,
+    "water.jpeg": waterImg,
+    "cyber foundations.png": cyberImg,
+    "faso bara.jpeg": fasoImg,
+    "trust market.jpeg": trustImg,
+    "health.jpeg": healthImg,
+    "quiz game.png": quizImg,
+    "web projet.jpeg": webImg,
+    "me.jpeg": meImg,
   };
 
   const skills = [
@@ -78,13 +89,13 @@ export default function Portfolio() {
       name: "Dart & Flutter Certification",
       issuer: "Udemy",
       year: "2026",
-      link: new URL("./certif/dart_flutter_certif.pdf", import.meta.url).href,
+      link: dartCert,
     },
     {
       name: "Python Certification",
       issuer: "Coddy",
       year: "2026",
-      link: new URL("./certif/python_certif.pdf", import.meta.url).href,
+      link: pythonCert,
     },
   ];
 
