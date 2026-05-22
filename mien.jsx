@@ -3,7 +3,7 @@ import cyberImg from "./img/cyber foundations.png";
 import fasoImg from "./img/faso bara.jpeg";
 import trustImg from "./img/trust market.jpeg";
 import healthImg from "./img/health.jpeg";
-import quizImg from "./img/quiz game.png";
+import quizImg from "./assets/python quizz game.jpeg";
 import webImg from "./img/web projet.jpeg";
 import meImg from "./img/me.jpeg";
 import dartCert from "./certif/dart_flutter_certif.pdf";
@@ -16,7 +16,7 @@ export default function Portfolio() {
     "faso bara.jpeg": fasoImg,
     "trust market.jpeg": trustImg,
     "health.jpeg": healthImg,
-    "quiz game.png": quizImg,
+    "python quizz game.jpeg": quizImg,
     "web projet.jpeg": webImg,
     "me.jpeg": meImg,
   };
@@ -73,7 +73,7 @@ export default function Portfolio() {
       description:
         "Local multiplayer quiz game built with PyGame including levels, timer, sounds and progression system.",
       tech: "Python • JSON",
-      image: imageMap["quiz game.png"],
+      image: imageMap["python quizz game.jpeg"],
     },
     {
       title: "Team Web Project",
