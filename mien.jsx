@@ -76,15 +76,15 @@ export default function Portfolio() {
   const certifications = [
     {
       name: "Dart & Flutter Certification",
-      issuer: "Perso",
+      issuer: "Udemy",
       year: "2026",
-      link: new URL("./certif/ma certif dart&flutter.pdf", import.meta.url).href,
+      link: new URL("./certif/dart_flutter_certif.pdf", import.meta.url).href,
     },
     {
       name: "Python Certification",
-      issuer: "Perso",
+      issuer: "Coddy",
       year: "2026",
-      link: new URL("./certif/ma certif phyton .pdf", import.meta.url).href,
+      link: new URL("./certif/python_certif.pdf", import.meta.url).href,
     },
   ];
 
